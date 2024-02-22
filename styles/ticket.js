@@ -2,7 +2,7 @@ const allBtn = document.getElementsByClassName("btn");
 for (const btn of allBtn) {
     btn.addEventListener("click", function (event) {
         const seat = event.target.parentNode.innerText;
-        const cls = "economy";
+        const cls = "Economy";
         const price = "550";
 
         const selectedContainer = document.getElementById("selected-seats-container");
